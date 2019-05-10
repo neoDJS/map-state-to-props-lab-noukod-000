@@ -7,13 +7,14 @@ import manageUsers from './reducers/manageUsers'
 
 
 // add imports and code
-let strore = createStore(manageUsers,
+let store = createStore(manageUsers,
               window._REDUX_DEVTOOLS_EXTENSION_ && window._REDUX_DEVTOOLS_EXTENSION_()
             );
 
 
 ReactDOM.render(
   // add imports and code
+  <Provider store={store}
   <App />
   // add imports and code
   ,
