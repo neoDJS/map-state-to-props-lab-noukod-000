@@ -7,6 +7,9 @@ import manageUsers from './reducers/manageUsers'
 
 
 // add imports and code
+let strore = createStore(manageUsers,
+              window._REDUX_DEVTOOLS_EXTENSION_ && window._REDUX_DEVTOOLS_EXTENSION_()
+            );
 
 
 ReactDOM.render(
