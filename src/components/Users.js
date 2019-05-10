@@ -6,6 +6,7 @@ class Users extends Component {
     return (
       <div>
         <ul>
+          {this.props.users.map(user=><li>{user.username}</li>)}
           Users!
         </ul>
       </div>
