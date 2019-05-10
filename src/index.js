@@ -16,7 +16,7 @@ ReactDOM.render(
   // add imports and code
   <Provider store={store}>
     <App />
-    </Provider>
+  </Provider>
   // add imports and code
   ,
   document.getElementById('root')
