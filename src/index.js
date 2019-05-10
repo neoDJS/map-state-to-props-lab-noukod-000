@@ -14,9 +14,9 @@ let store = createStore(manageUsers,
 
 ReactDOM.render(
   // add imports and code
-  <Provider store={store} />
+  <Provider store={store}>
     <App />
-    <Provider />
+    </Provider>
   // add imports and code
   ,
   document.getElementById('root')
